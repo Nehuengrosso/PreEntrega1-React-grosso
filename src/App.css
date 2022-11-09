@@ -12,18 +12,55 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.divNav{
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+
+}
+.divBarra{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.divForm{
+  width: 500px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  text-align: center;
 }
 
+.divBody{
+  display: flex;
+  justify-content: center;
+}
+.divApp{
+  /* display: flex; */
+  justify-content: center;
+  /* flex-direction: row; */
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+
+}
+.Carrito{
+  display: flex;
+  width: 50px;
+  /* margin-top: 10px; */
+  /* padding-top: 10px; */
+  position: relative;
+  
+}
+
+
+.App-header{
+  display: flex;
+  justify-content: space-between;
+}
 .App-link {
   color: #61dafb;
 }
